@@ -1,0 +1,67 @@
+.login {
+    @include center;
+
+    .card {
+        margin-top: 100px;
+        flex-direction: column;
+        // border: 1px solid black;
+        width: 50%;
+        @include center;
+        padding: 55px;
+
+        .header {
+            font-size: 32px;
+            font-weight: 500;
+            font-family: $header;
+            margin-bottom: 8px;
+        }
+
+        .logintext {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: 500;
+        }
+
+        input {
+            border: none;
+            border: 1px solid $grayInp;
+            border-radius: 8px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+
+        .labels {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                color: #424242;
+                font-size: 14px;
+            }
+        }
+        button{
+            width: 100%;
+            background-color: $mainRed;
+            border-radius: 8px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            border: none;
+            color: $white;
+            margin-bottom: 10px;
+        }
+        .signText{
+            font-size: 14px;
+            a {
+                text-decoration: none;
+                color: $black;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.navHead {
+  background-color: $mainBlue;
+  padding: 12px;
+a{
+  color:$white
+}
+  .container,
+  .terms,
+  .call {
+    @include between;
+    flex-direction: row;
+    color: $white;
+  }
+
+  .call .icon,
+  .termsUse,
+  .faq,
+  .customerService {
+    margin-right: 12px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .icon img {
+    fill: $white;
+  }
+}
+
+header {
+  .container {
+    .upper {
+      margin-top: 32px;
+      @include between;
+      flex-direction: row;
+
+      .logo {
+        a {
+
+          font-family: $logo;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          color: $black;
+        }
+      }
+
+      .search {
+        @include between;
+        padding: 13px;
+        border-radius: 8px;
+        background: $grayBg;
+        width: 50%;
+
+        input {
+          border: none;
+          background: $grayBg;
+          color: $grayInp;
+        }
+      }
+
+      .navIcons,
+      li {
+        @include center;
+        flex-direction: row;
+        font-family: $main;
+        font-size: 14px;
+        padding: 10px;
+
+        img {
+          height: 24px;
+          width: 24px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .lower ul {
+      padding: 30px 0;
+      @include between;
+      flex-direction: row;
+      width: 70%;
+    }
+  }
+}

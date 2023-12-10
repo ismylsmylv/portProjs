@@ -1,0 +1,372 @@
+.Handbag {
+  background-color: $heroBg;
+  height: 584px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .leftside {
+      .percaint {
+        color: $mainRed;
+        font-family: rubik;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 40.8px;
+        margin-top: 80px;
+      }
+      .handbag-products {
+        font-family: rubik;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 68px;
+      }
+      p {
+        width: 453px;
+        height: 81px;
+        margin-top: 20px;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.2px;
+      }
+      .shop-now {
+        margin-top: 50px;
+        width: 192px;
+        height: 52px;
+        border-radius: 8px;
+        background-color: $mainBlue;
+        text-align: center;
+        padding: 14px 0;
+        color: white;
+      }
+      .sliderbtns {
+        margin-top: 160px;
+        display: flex;
+
+        .greybtn1 {
+          width: 12px;
+          height: 12px;
+          background: #20636340;
+          border-radius: 50%;
+        }
+        .greybtn2 {
+          margin-left: 19px;
+          width: 12px;
+          height: 12px;
+          background: #20636340;
+          border-radius: 50%;
+        }
+        .redbtn {
+          margin-left: 19px;
+          width: 26px;
+          height: 12px;
+          border-radius: 8px;
+          background-color: $mainRed;
+        }
+      }
+    }
+    .rightside {
+      width: 642px;
+      height: 535px;
+      margin-top: 23px;
+    }
+  }
+}
+.upperCarousel {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  .bags {
+    border-radius: 8px;
+    width: 264px;
+    height: 162px;
+    background: $grayBg;
+    overflow: hidden;
+    p {
+      margin-left: 30px;
+      margin-top: 30px;
+      width: 135px;
+      height: 31px;
+      display: inline-block;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 31px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .bag1 {
+      margin-left: 120px;
+      margin-top: -44px;
+    }
+    .bag2 {
+      margin-left: 110px;
+      margin-top: 9px;
+    }
+    .bag3 {
+      margin-left: 100px;
+      margin-top: -50px;
+    }
+    .bag4 {
+      margin-left: 110px;
+      margin-top: 10px;
+    }
+  }
+  .arrow {
+    margin-left: -90px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: $white;
+    border-radius: 50%;
+    border: 1px solid $grayBg;
+    img {
+      width: 30px;
+    }
+  }
+}
+.middleText {
+  margin-top: 104px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  p {
+    width: 290px;
+    height: 54px;
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .view {
+    display: flex;
+    width: 165px;
+    height: 27px;
+    text-align: center;
+    margin-top: 19px;
+
+    span {
+      color: #000;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+      height: 16px;
+    }
+    img {
+      height: 20px;
+      width: 20px;
+      margin-top: 4px;
+    }
+  }
+}
+.lowerCarousel,
+.bestseller {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  .box3 {
+    .buttons {
+      margin-left: 300px;
+    }
+  }
+  .box {
+    width: 360px;
+    height: 525px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px;
+
+      .newbtn {
+        width: 79px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: $mainGreen;
+        text-align: center;
+        color: $white;
+        padding-top: 4px;
+      }
+    }
+    .productbags {
+      width: 218px;
+      height: 243px;
+      flex-shrink: 0;
+      margin-left: 70px;
+      margin-top: -50px;
+    }
+
+    .productbag {
+      width: 264px;
+      height: 280px;
+      flex-shrink: 0;
+      margin-top: -55px;
+      img {
+        width: 254px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-left: 50px;
+      }
+    }
+    .stars {
+      margin-left: 26px;
+      margin-top: 16px;
+    }
+    .textp {
+      margin-top: 16px;
+      margin-left: 26px;
+      width: 302px;
+      color: $black;
+      font-family: Rubik;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%; /* 27.2px */
+    }
+    .money {
+      display: flex;
+      align-items: center;
+      margin-left: 26px;
+      p {
+        color: $money;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 170%; /* 34px */
+        margin-right: 18px;
+      }
+      span {
+        // margin-top: 3px;
+        // margin-left: 18px;
+        // color: rgba(54, 54, 54, 0.75);
+        color: $black;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 27.2px */
+      }
+    }
+    .add-to-card {
+      margin-top: 25px;
+      margin-left: 26px;
+      width: 312px;
+      height: 48px;
+      border-radius: 8px;
+      border: 1px solid black;
+      p {
+        width: 95px;
+        height: 27px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        margin-left: 107px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .box2 {
+    .percaint3 {
+      width: 79px;
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      text-align: center;
+      color: $white;
+      padding-top: 4px;
+      color: $white;
+      background: $mainRed;
+    }
+  }
+}
+.besttseller {
+  background: $bestseller;
+  padding-bottom: 64px;
+}
+.middleText2 {
+  margin-top: 104px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  p {
+    margin-top: 64px;
+    width: 290px;
+    height: 54px;
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .view {
+    display: flex;
+    width: 165px;
+    height: 27px;
+    text-align: center;
+    margin-top: 19px;
+
+    span {
+      color: #000;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+      height: 16px;
+    }
+    img {
+      height: 20px;
+      width: 20px;
+      margin-top: 4px;
+    }
+  }
+}
+.bstsellerr {
+  .box {
+    background: $white;
+  }
+}
+.lowerCarousel {
+  .box {
+    background: $grayBg;
+  }
+}
+.percaint3 {
+  width: 79px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  text-align: center;
+  color: $white;
+  padding-top: 4px;
+  color: $white;
+  background: $mainRed;
+}
+
+// .mainPrice{
+//   color:$black!important;
+//   font-weight: 500 !important;
+
+// }
+
+.searchcards {
+  display: flex;
+}

@@ -1,0 +1,206 @@
+.pageHead {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: $header;
+  margin-bottom: 30px;
+}
+
+.favoritess {
+  display: flex;
+  justify-content: space-between;
+
+  .accNav {
+    border-radius: 8px;
+    width: 295px;
+    height: 349px;
+    margin-top: 31.5px;
+    border: 1px solid #e4e4e4;
+
+    .credentials {
+      display: flex;
+      padding: 15px;
+      border-bottom: 1px solid $grayInp;
+
+      .img,
+      img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+
+      .details {
+        padding-left: 20px;
+        padding-right: 30px;
+
+        .username {
+          font-weight: 500;
+          font-family: $header;
+          font-size: 16px;
+        }
+
+        .client {
+          width: 100%;
+          margin-right: 30px;
+        }
+      }
+    }
+
+    .navItems {
+      padding: 14px 16px;
+      border-bottom: 1px solid $grayInp;
+      display: flex;
+      align-items: center;
+
+      .navIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px !important;
+      }
+      
+      .navName {
+        margin-left: 0;
+      }
+    }
+
+    // .favorites {
+    //   background-color: $btnAdd;
+    // }
+
+    .adjustments {
+      border-bottom: none;
+    }
+  }
+
+  .favProdsRow {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 174px;
+    .box {
+      margin-right: 50px;
+      margin-bottom: 60px;
+      background: $grayBg;
+      width: 370px;
+      height: 522px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      .margin {
+        margin-left: -10px;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+
+        .newbtn {
+          width: 79px;
+          height: 32px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          background: $mainGreen;
+          text-align: center;
+          color: $white;
+          padding-top: 4px;
+        }
+      }
+
+      .productbags {
+        width: 218px;
+        height: 243px;
+        flex-shrink: 0;
+        margin-left: 70px;
+        margin-top: -50px;
+      }
+
+      .productbag {
+        width: 264px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-top: -55px;
+        img {
+          width: 254px;
+          height: 280px;
+          flex-shrink: 0;
+          margin-left: 50px;
+        }
+      }
+
+      .stars {
+        margin-left: 26px;
+        margin-top: 16px;
+      }
+
+      .textp {
+        margin-top: 16px;
+        margin-left: 26px;
+        width: 302px;
+        color: $black;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        /* 27.2px */
+      }
+
+      .money {
+        display: flex;
+        margin-left: 26px;
+
+        p {
+          color: $money;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 170%;
+          /* 34px */
+        }
+
+        span {
+          margin-top: 3px;
+          margin-left: 18px;
+          color: rgba(54, 54, 54, 0.75);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%;
+          /* 27.2px */
+        }
+      }
+
+      .add-to-card {
+        margin-left: 26px;
+        width: 312px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid black;
+
+        p {
+          width: 95px;
+          height: 27px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 27px;
+          letter-spacing: 0em;
+          margin-left: 107px;
+          margin-top: 10px;
+        }
+      }
+
+      .percaint3 {
+        width: 79px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        text-align: center;
+        color: $white;
+        padding-top: 4px;
+        color: $white;
+        background: $mainRed;
+      }
+    }
+  }
+}

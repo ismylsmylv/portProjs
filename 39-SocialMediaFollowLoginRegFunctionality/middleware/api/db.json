@@ -1,0 +1,137 @@
+[
+    {
+        "username": "Ismayil",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "ismayil@mail.com",
+        "id": "1"
+    },
+    {
+        "username": "Said",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "seid@mail.com",
+        "id": "2"
+    },
+    {
+        "username": "Nahid",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "nahid@mail.com",
+        "id": "3"
+    },
+    {
+        "username": "Aysun",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "aysun@mail.com",
+        "id": "4"
+    },
+    {
+        "username": "Sevinc",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "sevinc@mail.com",
+        "id": "5"
+    },
+    {
+        "username": "Nicat",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "nicat@mail.com",
+        "id": "6"
+    },
+    {
+        "username": "Laman",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "laman@mail.com",
+        "id": "7"
+    },
+    {
+        "username": "Sabina",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "sabina@mail.com",
+        "id": "8"
+    },
+    {
+        "username": "Samaya",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "samaya@mail.com",
+        "id": "9"
+    },
+    {
+        "username": "Asmar",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "asmar@mail.com",
+        "id": "10"
+    },
+    {
+        "username": "Fatma",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "fatma@mail.com",
+        "id": "11"
+    },
+    {
+        "username": "Shana",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "shana@mail.com",
+        "id": "12"
+    },
+    {
+        "username": "Fatima",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "fatima@mail.com",
+        "id": "13"
+    },
+    {
+        "username": "Hamida",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "hamida@mail.com",
+        "id": "14"
+    },
+    {
+        "username": "Ayan",
+        "password": "password",
+        "friends": [],
+        "requests": [],
+        "blocked": [],
+        "email": "ayan@mail.com",
+        "id": "15"
+    }
+]

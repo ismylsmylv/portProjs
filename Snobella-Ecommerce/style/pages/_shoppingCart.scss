@@ -1,0 +1,295 @@
+.homeToPage {
+  margin-top: 30px;
+}
+.leftt {
+  width: 744px;
+  height: 211px;
+  border-radius: 8px;
+  border: 1px solid #e4e4e4;
+  margin-top: 15px;
+  .forimage {
+    width: 151px;
+    height: 179px;
+    border-radius: 8px;
+    margin: 10px;
+    background: #f9f9f9;
+
+    img {
+      width: 124px;
+      height: 137px;
+      margin: 15px 5px;
+    }
+  }
+  .detailscart {
+    margin-left: 14px;
+    .flexverrr {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      p {
+        width: 430px;
+        height: 27px;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      .marginleft {
+        margin-left: 60px;
+      }
+    }
+    .spans {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      .span1 {
+        width: 49px;
+        height: 24px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #212121bf;
+      }
+      .span2 {
+        width: 77px;
+        height: 24px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #212121bf;
+        margin-left: 20px;
+      }
+    }
+    .span3 {
+      width: 139px;
+      height: 24px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #212121bf;
+    }
+    .span4 {
+      width: 50px;
+      height: 24px;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #212121bf;
+      margin-top: 6px;
+    }
+    .araliqq {
+      margin-top: 8px;
+      padding-left: 7px;
+      padding-top: 3px;
+      width: 72px;
+      height: 32px;
+      border-radius: 3px;
+      border: 1px solid #e4e4e4;
+      display: flex;
+      span {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      img {
+        margin-top: 2px;
+        width: 19px;
+        height: 19px;
+        padding: 9.6px, 5px, 5.67px, 5px;
+      }
+    }
+    .araliq {
+      display: flex;
+      margin-top: 8px;
+      padding-left: 8px;
+      padding-top: 5px;
+      width: 72px;
+      height: 32px;
+      border-radius: 3px;
+      border: 1px solid #e4e4e4;
+      img {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        margin-left: 10px;
+      }
+    }
+    .flexverc {
+      margin-left: 335px;
+      display: flex;
+      img {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        margin-right: 13px;
+      }
+      p {
+        color: rgba(33, 33, 33, 0.75);
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%; /* 23.8px */
+      }
+      .pp {
+        margin-right: 40px;
+      }
+    }
+  }
+}
+.flexverr {
+  display: flex;
+}
+.rightsidee {
+  .right1 {
+    padding: 30px 25px;
+    width: 360px;
+    height: 275px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    .sub {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+      p {
+        width: 107px;
+        height: 27px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      span {
+        width: 75px;
+        height: 27px;
+        padding-left: 36px;
+      }
+    }
+    .shipping {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      p {
+        width: 144px;
+        height: 27px;
+      }
+      span {
+        width: 35px;
+        height: 27px;
+      }
+    }
+    .total {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      p {
+        width: 45px;
+        height: 31px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      span {
+        width: 89px;
+        height: 31px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 39px;
+      }
+    }
+    .dash {
+      width: 312px;
+      color: #d0d0d0;
+      margin-top: 10px;
+    }
+    .applybtn {
+      margin-top: 10px;
+      width: 312px;
+      height: 48px;
+      border-radius: 8px;
+      border: 1px solid #dbdbdb;
+      display: flex;
+      overflow: hidden;
+      justify-content: space-between;
+      p {
+        width: 152px;
+        height: 17px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #888888;
+        margin: 14px;
+      }
+      .bcgcolor {
+        width: 102px;
+        height: 48px;
+        background: #ff695e;
+        border-radius: 0px, 8px, 8px, 0px;
+        color: $white;
+        padding: 12px 30px;
+      }
+    }
+  }
+  .confirmbtn {
+    margin-top: 20px;
+    width: 360px;
+    height: 52px;
+    border-radius: 8px;
+    background: #df4244;
+    color: $white;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .cashbtn {
+    margin-top: 20px;
+    width: 360px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #212121;
+    padding: 12px 125px;
+    P {
+      width: 124px;
+      height: 27px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #212121;
+    }
+  }
+}

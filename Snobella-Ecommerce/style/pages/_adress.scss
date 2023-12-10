@@ -1,0 +1,201 @@
+.pageHead {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: $header;
+    margin-bottom: 30px;
+}
+
+.favorites,
+.adresses {
+    display: flex;
+    gap: 20px;
+
+    .addressCard,
+    .addNew {
+        height: 100%;
+    }
+
+    .accNav {
+        border: 1px solid $grayInp;
+        border-radius: 8px;
+        height: fit-content;
+
+        .credentials {
+            display: flex;
+            padding: 15px;
+            border-bottom: 1px solid $grayInp;
+
+            .img,
+            img {
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+
+            .details {
+                padding-left: 20px;
+                padding-right: 30px;
+
+                .username {
+                    font-weight: 500;
+                    font-family: $header;
+                    font-size: 16px;
+                }
+
+                .client {
+                    width: 100%;
+                    margin-right: 30px;
+                }
+
+            }
+        }
+
+        .navItems {
+            padding: 14px 16px;
+            border-bottom: 1px solid $grayInp;
+            display: flex;
+            align-items: center;
+
+
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .navIcon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px !important;
+        }
+
+        // .favorites {
+        //     background-color: $white;
+
+
+        // }
+
+        // .addresses {
+        //     background-color: $btnAdd;
+        // }
+
+        .adjustments {
+            border-bottom: none;
+
+        }
+    }
+
+    .adresses {
+        input {
+            border: 1px solid $btnAdd;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .addressCard {
+            border-radius: 8px;
+            border: 1px solid $mainBlue;
+            padding: 15px;
+            height: fit-content;
+
+
+            .nameSelect {
+                @include between;
+                border-bottom: 1px solid $grayInp;
+                padding-bottom: 15px;
+            }
+
+            .restCard {
+                display: flex;
+                flex-direction: column;
+
+                .details {
+                    padding-top: 15px;
+                    color: $blackFooter;
+
+                    .name {
+                        font-weight: 500;
+                    }
+
+                    .name,
+                    .city,
+                    .street,
+                    .number {
+                        margin-bottom: 16px;
+                    }
+
+                }
+            }
+
+
+            .controls {
+                @include between;
+                padding: 5px 0;
+
+                button {
+                    @include center;
+                    border: 1px solid $grayInp;
+                    background-color: $white;
+                    padding: 6px 12px;
+                    border-radius: 8px;
+
+                    img {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .addNew {
+            @include center;
+            background-color: $btnAdd;
+            border-style: dashed;
+            padding: 107px 0;
+            cursor: pointer;
+
+            .content {
+                @include center;
+                flex-direction: column;
+
+
+                img {
+                    margin-bottom: 10px;
+                }
+
+                .text {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+}
+
+.addedNew {
+    border-color: $btnAdd;
+}
+
+.deleteBtn:hover {
+    background-color: red !important;
+    color: white;
+    transition: 200ms;
+    border-color: red !important;
+
+    img {
+        filter: invert(1) !important;
+    }
+}
+
+.edit:hover, .confirm:hover {
+    background-color: $mainBlue !important;
+    border-color: $mainBlue !important;
+    color: white;
+    transition: 200ms;
+
+    img {
+        filter: invert(1)!important;
+    }
+}

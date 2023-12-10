@@ -1,0 +1,17 @@
+.credits {
+    .container {
+        @include between;
+        flex-direction: row;
+        padding: 25px 0;
+    }
+
+    .socials {
+        @include between;
+        flex-direction: row;
+        .icon {
+            margin:20px
+        }
+    }
+
+
+}

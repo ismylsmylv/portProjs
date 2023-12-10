@@ -1,0 +1,20 @@
+ProductList
+2. leftde rating, qiymet araligi
+
+ProductPage
+2. Reviewlər ?
+
+Orders
+1. Order tarixçəsi?
+
+Adresses
+1. Delete adress apidən silmir
+2. Add edəndən sonra da silmir
+
+Admin Panel
+3. Admin məhsullar əlavə edə bilər
+5. Admin user əlavə edə bilər
+6. Admin məhsullar və userlər üzərində edit edə bilər.
+
+Api
+sold artır confirm cartdan sonra

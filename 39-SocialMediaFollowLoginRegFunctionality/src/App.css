@@ -1,0 +1,83 @@
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  width: 40%;
+}
+input {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+label,
+.signins {
+  font-weight: 500;
+  margin-top: 10px;
+}
+.signins {
+  color: blue;
+  padding: 5px 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.signup {
+  color: white;
+  padding: 5px 15px;
+  background-color: blue;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* body {
+  background: rgb(135, 91, 255) !important;
+  background: linear-gradient(
+    58deg,
+    rgba(135, 91, 255, 1) 21%,
+    rgba(0, 175, 149, 1) 88%
+  ) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100%;
+  min-height: 100%;
+  background-attachment: fixed !important;
+}
+.TableContainer {
+  background-color: white;
+} */
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.thead {
+  margin: 20px 0 5px 0;
+}
+.addInps {
+  padding: 20px 0;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+.addInp {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 0 !important;
+}
+Button {
+  margin-right: 5px;
+}
+Image {
+  padding-top: 20px !important;
+}

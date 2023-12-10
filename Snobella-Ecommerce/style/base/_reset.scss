@@ -1,0 +1,52 @@
+@import "../utils/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $main;
+  list-style: none;
+  font-size: 14px;
+}
+
+ul,
+li {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.wishlist,
+.signIn {
+  text-decoration: none;
+  color: $blackFooter;
+}
+a {
+  color: $mainBlack;
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+.addToFav,
+.shopbtn {
+  cursor: pointer;
+}
+.cardbtn {
+  cursor: pointer;
+}
+.stars {
+  display: flex;
+}
+.upperFooter {
+  margin-bottom: 30px;
+}
+input {
+  outline: none;
+}
+button, .confirmbtn, .cashbtn, .RemoveBtn {
+  cursor: pointer !important;
+}

@@ -1,0 +1,12 @@
+.services {
+    background-color: $grayBg;
+    padding:45px;
+    ul ,li {
+        @include between;
+        flex-direction: row;
+        img{
+            height: 48px;
+            width: 48px;
+        }
+    }
+}

@@ -1,0 +1,445 @@
+.homeToPage {
+  display: flex;
+
+  p {
+    color: #1d1d1d;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+
+  img {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+
+  span {
+    color: rgba(29, 29, 29, 0.75);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-between;
+
+  .bags {
+    color: #212121;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+  }
+
+  .flexver {
+    display: flex;
+    margin-top: 34px;
+
+    p {
+      margin-top: 12px;
+      margin-right: 27px;
+      color: rgba(33, 33, 33, 0.9);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+
+    .featurebtn {
+      display: flex;
+      width: 140px;
+      height: 40px;
+      color: #d0d0d0;
+      border-radius: 8px;
+      border: 1px solid;
+      padding: 0px 14px;
+
+      p {
+        margin-top: 6px;
+        color: rgba(33, 33, 33, 0.9);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+      }
+
+      img {
+        margin-top: 5px;
+        margin-left: -10px;
+        width: 28px;
+        height: 28px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+      }
+    }
+  }
+}
+
+.mainPage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  .leftside {
+    margin-right: 80px;
+
+    .left1 {
+      height: 340px;
+    }
+
+    .left2 {
+      height: 355px;
+    }
+
+    .left3 {
+      height: 146px;
+
+      .inps {
+        display: flex;
+        margin-left: 31px;
+        margin-top: 20px;
+
+        .minus {
+          margin-top: 9px;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+
+        .inpp {
+          width: 72px;
+          height: 40px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          border: 1px solid #c8c8c8;
+        }
+
+        .searchbtn {
+          margin-left: 20px;
+          width: 53px;
+          height: 40px;
+          flex-shrink: 0;
+          background: $btnsearch;
+          border-radius: 8px;
+          cursor: pointer;
+
+          img {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+            color: $white;
+            margin-top: 8px;
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+
+    .left4 {
+      height: 139px;
+
+      .btnsflex {
+        display: flex;
+        margin-left: 31px;
+        margin-top: 20px;
+
+        div {
+          width: 64px;
+          height: 40px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          border: 1px solid #c8c8c8;
+          margin-right: 15px;
+
+          .mxs {
+            margin-top: 10px;
+            margin-left: 21px;
+          }
+
+          .ms {
+            margin-top: 10px;
+            margin-left: 26px;
+          }
+
+          .mm {
+            margin-top: 10px;
+            margin-left: 23px;
+          }
+        }
+      }
+    }
+
+    .left5 {
+      height: 159px;
+
+      .rgb {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 31px;
+        margin-right: 35px;
+        margin-top: 10px;
+
+        .rgbtn {
+          width: 24px;
+          height: 24px;
+          flex-shrink: 0;
+          border-radius: 50%;
+          border: none;
+          margin-right: 10px;
+          margin-bottom: 10px;
+
+          button {
+            margin-left: 2.2px;
+            margin-top: 2.5px;
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            border: none;
+          }
+
+          .darkgreen {
+            background: #275240;
+          }
+
+          .blue {
+            background: #0085ff;
+          }
+
+          .brown {
+            background: #895c31;
+          }
+
+          .brownred {
+            background: #842759;
+          }
+
+          .brownredbrown {
+            background: #773838;
+          }
+
+          .darkbrow {
+            background: #3d2a33;
+          }
+
+          .black {
+            background: $black;
+          }
+
+          .green {
+            background: #307e46;
+          }
+
+          .orange {
+            background: #ff6b00;
+          }
+
+          .yellow {
+            background: #d6b73b;
+          }
+
+          .chevrolet {
+            background: #7c4dff;
+          }
+
+          .red {
+            background: #f75145;
+          }
+        }
+      }
+    }
+
+    .left {
+      margin-bottom: 20px;
+      width: 326px;
+      border-radius: 8px;
+      border: 1px solid #d0d0d0;
+
+      .firstflex {
+        margin-top: 20px;
+        margin-left: 31px;
+        display: flex;
+
+        p {
+          color: #212121;
+          width: 106px;
+          height: 34px;
+          font-family: Rubik;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 34px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        img {
+          margin-left: 130px;
+          width: 28px;
+          height: 28px;
+          padding: 7px, 11.67px, 7px, 9.33px;
+        }
+      }
+
+      .leftdetail {
+        margin-left: 31px;
+        margin-top: 30px;
+
+        .dtl {
+          margin-top: 17px;
+        }
+
+        .shoulder {
+          color: #212121;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 170%;
+        }
+      }
+    }
+  }
+
+  .rightside {
+    justify-content: space-around;
+
+    .box {
+      margin-bottom: 40px;
+      background: $grayBg;
+      width: 360px;
+      height: 508px;
+      flex-shrink: 0;
+      border-radius: 8px;
+
+      .margin {
+        margin-left: -15px;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+
+        .newbtn {
+          width: 79px;
+          height: 32px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          background: $mainGreen;
+          text-align: center;
+          color: $white;
+          padding-top: 4px;
+        }
+      }
+
+      .productbags {
+        width: 218px;
+        height: 243px;
+        flex-shrink: 0;
+        margin-left: 70px;
+        margin-top: -50px;
+      }
+
+      .productbag {
+        width: 264px;
+        height: 280px;
+        flex-shrink: 0;
+        margin-top: -55px;
+
+        img {
+          width: 254px;
+          height: 280px;
+          flex-shrink: 0;
+          margin-left: 50px;
+        }
+      }
+
+      .stars {
+        margin-left: 26px;
+        margin-top: 16px;
+      }
+
+      .textp {
+        margin-top: 16px;
+        margin-left: 26px;
+        width: 302px;
+        color: $black;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        /* 27.2px */
+      }
+
+      .money {
+        display: flex;
+        margin-left: 26px;
+
+        p {
+          color: $money;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 170%;
+          /* 34px */
+        }
+
+        span {
+          margin-top: 3px;
+          margin-left: 18px;
+          color: rgba(54, 54, 54, 0.75);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%;
+          /* 27.2px */
+        }
+      }
+
+      .add-to-card {
+        margin-left: 26px;
+        width: 312px;
+        height: 48px;
+        border-radius: 8px;
+        border: 1px solid black;
+
+        p {
+          width: 95px;
+          height: 27px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 27px;
+          letter-spacing: 0em;
+          margin-left: 107px;
+          margin-top: 10px;
+        }
+      }
+
+      .percaint3 {
+        width: 79px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        text-align: center;
+        color: $white;
+        padding-top: 4px;
+        color: $white;
+        background: $mainRed;
+      }
+    }
+  }
+}
